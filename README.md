@@ -3,23 +3,21 @@
 ## Data in the repo:
 The data is in dataFiles folder and includes:
 
-### 1. Ask a Manager Salary Survey 2021
-This data was found at https://www.kaggle.com/datasets/masoomaalghawas/ask-a-manager-salary-survey-2021.
+### 1. Laptop Price Data
+This data was found at https://www.kaggle.com/datasets/ehtishamsadiq/uncleaned-laptop-price-dataset.
 
 VARIABLES
-* 'AGE' : Age of respondent
-* 'INDUSTRY' : Industry respondent works in
-* 'JOB_TITLE' : Individual respondent's job title
-* 'SALARY' : Annual salary of respondent
-* 'CURRENCY' : Type of currency respondent is paid in
-* 'COUNTRY' : Country respondent works in
-* 'STATE' : State respondent works in
-* 'CITY' : City respondent works in
-* 'WORK_EXPERIENCE_OVERALL' : Overall years of work experience in general
-* 'WORK_EXPERIENCE_FIELD' : Years of work experience specifically in current field
-* 'EDUC' : Respondent education level
-* 'GENDER' : Respondent gender identity
-* 'RACE' : Respondent racial identity
+* 'COMPANY' : Laptop company
+* 'TYPENAME' : Laptop model
+* 'INCHES' : Monitor size in inches
+* 'SCREENRESOLUTION' : Screen resolution
+* 'CPU' : Type of CPU
+* 'RAM' : Gigabytes of RAM included
+* 'MEMORY' : Amount of memory included, 
+* 'GPU' : Type of GPU
+* 'OP_SYS' : Operating system
+* 'WEIGHT' : Weight of laptop in kg
+* 'PRICE' : Price of laptop in $
 
 ### 2. Messy IMDB Dataset
 This data was found at https://www.kaggle.com/datasets/davidfuenteherraiz/messy-imdb-dataset.
@@ -36,26 +34,27 @@ VARIABLES
 * 'NUMBER_VOTES' : Number of total votes on IMDB
 * 'IMDB_SCORE' : Movie rating on IMDB
 
-### 3. Life-Expectancy Vs. Expected Years Lived With Disability
-This data was found at https://www.kaggle.com/datasets/gianlab/unemployment-rate-life-expectancy-with-disability.
+### 3. Real Estate Dataset
+This data was found at https://www.kaggle.com/datasets/rumanaamin/real-estate-raw-dataset-for-cleaningexploring.
 
 VARIABLES
-* 'ENTITY' : Country
-* 'CODE' : Country code
-* 'YEAR' : Year of data collection
-* 'LIFE_EXPECTANCY' : Life expectancy in years
-* 'YEARS_WITH_DISABILITY': Years lived with disability
-* 'POPULATION' : Historical estimates of population in given countries in given years
-* 'CONTINENT' : Continent country is located in
-
-### 4. Unemployment Rate by Disability
-This data was found at https://www.kaggle.com/datasets/gianlab/unemployment-rate-life-expectancy-with-disability.
-
-VARIABLES
-* 'ENTITY' : Country
-* 'CODE' : Country code
-* 'YEAR' : Year of data collection
-* 'UNEMPLOYMENT_RATE_NO_DISABILITY' : Unemployment rate for people without disabilities, including both sexes
-* 'UNEMPLOYMENT_RATE_DISABILITY' : Unemployment rate for people with disabilities, including both sexes
-* 'POPULATION' : Historical estimates of population in given countries in given years
-* 'CONTINENT' : Continent country is located in
+* 'URL' : URL link to real estate listing
+* 'TITLE' : Title of real estate listing
+* 'PROPERTY_TYPE' : Type of property
+* 'PROPERTY_SIZE' : Property size in square feet
+* 'PARKING': Number of parking spaces
+* 'ELEVATOR' : Number of elevators in building
+* 'FLOOR' : Floors available for rent
+* 'PRICE_BDT' : Price in BDT currency
+* 'SERVICE_CHARGE_BDT' : Service charge in BDT currency
+* 'YEAR_BUILT' : Year building was built
+* 'BUILDING_REGISTRATION_TYPE' : Building registered as residential, commercial or a mix
+* 'PREFERRED_TENANT' : Preferred tenant- foreigner, family, corporate office, restaurant, etc.
+* 'FURNISHED' : Rental comes furnished, semi-furnished, or unfurnished
+* 'GARAGE_SIZE' : Garage size in sqare feet
+* 'FRONT_ROAD_SIZE' : Front road size in feet
+* 'COMMON_AREA_SIZE' : Common area size in square feet
+* 'BEDROOMS' : Number of bedrooms included
+* 'BATHROOMS' : Number of bathrooms included
+* 'LOCATION' : Neighborhood rental is located in
+* 'COUNTRY' : Country rental is located in- all are Bangladesh
